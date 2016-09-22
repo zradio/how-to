@@ -47,14 +47,14 @@ Una vez el repositorio creado, podeis clonarlo a vuestro ordenador (en el que ya
 
 Para contribuir codigo en GitHub, simplemente crear un dosier en vuestro ordenador, initializar `git` desde una terminal llendo al dosier que habeis creado (unsando `$ cd <direcion-absoluta-del-dosier>`) y entrando `$ git init`. Ahora podeis editar ficheros con vuestro editor de texto. Cuando querais salvar vuestros cambios, simplemente usar `$ git add -A` y luego `$ git commit -m "<description-de-los-cambios>"`.
 
-Para subir vuestras modificaciones a GitHub, primero teneis que decir a `git` cual es vuestro repositorio usando `$ git remote add origin https://github.com/<nombre-usuario>/<nombre-repositorio>.git`. Una vez el repositorio configurado, simplemente usar `$ git push origin -u` la primer vez que se contribuye codigo al dicho repositorio, y luego simplemente `$ git push` cada vez que hayas hecho cambios (y `commit`eado esos cambios).
+Para subir vuestras modificaciones a GitHub, primero teneis que decir a `git` cual es vuestro repositorio usando `$ git remote add origin https://github.com/<nombre-usuario>/<nombre-repositorio>.git`. Una vez el repositorio configurado, simplemente usar `$ git push -u origin master` la primer vez que se contribuye codigo al dicho repositorio, y luego simplemente `$ git push` cada vez que hayas hecho cambios (y `commit`eado esos cambios).
 
 > Si ya teneis codigo que os gustario subir a GitHub, hacer lo siguiente
 - Abrir una terminal y navegar hasta el dosier en donde esta el codigo (usando `$ cd <direcion-absoluta-del-dosier>`).
 - Initializar `git` usando `$ git init`.
 - Añadir los ficheros y hacer un commit (`$ git add -A` y luego `$ git commit -m "Initial commit"`).
 - Añadir vuestro repositorio GitHub `$ git remote add origin https://github.com/<nombre-usuario>/<nombre-usuario>.github.io.git`.
-- Subir los cambios a GitHub con `$ git push origin -u` (puede que os pida introducir vuestra contraseña).
+- Subir los cambios a GitHub con `$ git push -u origin master` (puede que os pida introducir vuestra contraseña).
 - Ahora podeis ver los ficheros en vuestra cuenta GitHub, y si habeis llamado vuestro repositorio `<nombre-de-usuario>.github.io` y teneis un fichero `index.html` valido, podeis ver vuestra pagina web on-line! 
 
 Si quereis aberiguar mas sobre GitHub, os invito a leer los diferentes guias oficiales o ver la videos oficiales (en Ingles) aqui: [https://guides.github.com/](https://guides.github.com/). 
